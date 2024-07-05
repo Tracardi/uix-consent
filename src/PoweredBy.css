@@ -1,0 +1,12 @@
+.PoweredBy {
+    right: 20px;
+    position: absolute;
+    color: gray;
+    display: none;
+}
+
+@media (min-width: 1100px) {
+    .PoweredBy {
+        display: block;
+    }
+}
