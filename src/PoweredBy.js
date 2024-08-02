@@ -14,5 +14,5 @@ const PoweredByDiv = styled.div`
 
 export default function PoweredBy() {
     console.log(window.innerWidth)
-    return <PoweredByDiv>Powered by <a href="http://www.tracardi.com" style={{color: "black"}}>TRACARDI</a></PoweredByDiv>
+    return <PoweredByDiv>Powered by <a href="http://www.tracardi.com/?utm_source=consent-bar&utm_medium=web" style={{color: "black"}}>TRACARDI</a></PoweredByDiv>
 }
